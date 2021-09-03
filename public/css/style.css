@@ -160,3 +160,73 @@ i {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+
+.card:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.card-1:hover h1 {
+    animation: color-change-1 0.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.card-2:hover h1 {
+    animation: color-change-2 0.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.card-3:hover h1 {
+    animation: color-change-3 0.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes color-change-1 {
+    0% { color:black; }
+    100% { color:rgb(129, 152, 237); }
+}
+
+@keyframes color-change-2 {
+    0% { color:black; }
+    100% { color:rgb(97, 115, 221); }
+}
+
+@keyframes color-change-3 {
+    0% { color:black; }
+    100% { color:rgb(250, 200, 0) }
+}
+
+
+/* border color change */
+
+/* .card-1:hover {
+    animation: color-change-1 0.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.card-2:hover {
+    animation: color-change-2 0.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.card-3:hover {
+    animation: color-change-3 0.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-change-1 {
+    0% { border-color:black; }
+    100% { border-color:rgb(129, 152, 237); }
+}
+
+@keyframes color-change-2 {
+    0% { border-color:black; }
+    100% { border-color:rgb(97, 115, 221); }
+}
+
+@keyframes color-change-3 {
+    0% { border-color:black; }
+    100% { border-color:rgb(250, 200, 0) }
+} */
