@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://embedml.github.io/about/</loc>
   </url><url>
-    <loc>http://example.org/contact/</loc>
+    <loc>https://embedml.github.io/contact/</loc>
   </url><url>
-    <loc>http://example.org/join/</loc>
+    <loc>https://embedml.github.io/join/</loc>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://embedml.github.io/categories/</loc>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://embedml.github.io/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://embedml.github.io/tags/</loc>
   </url>
 </urlset>

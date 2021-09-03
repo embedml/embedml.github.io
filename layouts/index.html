@@ -1,3 +1,61 @@
 {{ define "main" }}
-    <h1>This is the home page</h1>
+    
+
+    <div class="row">
+        <div class="col" style="height: 600px; display: flex; justify-content: center; align-items: center;">
+            <span><h1 class="heading" style="font-size: 50px;">Embedded Machine Learning</h1><h1 style="font-size: 35px">@ NC State University</h1></span>
+        </div>
+        <div class="col-md-2">
+        </div>
+        <div class="col">
+            <div class="row" style="height: 600px;">
+                <div class="col container-accent-1">
+                    <h1 style="color: white; font-size: 30px;">Education</h1>
+                </div>
+                <div class="col container-accent-2">
+                    <h1 style="color: white; font-size: 30px;">Outreach</h1>
+                </div>
+                <div class="col" style="background-color: rgb(250, 200, 0);">
+                    <h1 style="color: white; font-size: 30px;">Competition</h1>
+                </div>
+            </div>
+        </div>
+        <!-- mic, award, play button for education, broadcast instead of mic, camera, joystick -->
+    </div>
+    
+
+
 {{end}}
+
+{{ define "body" }}
+    <div class="container-accent-7" style="height: 600px; margin-top: 35px;">
+        <div class="container">
+            <div class="row">
+                <div class="col" style="padding: 25px;">
+                    <div class="card h-100">
+                        <div class="card-body card-content">
+                          <h1>Education</h1>
+                          <p>Making machine learning and embedded systems more accessible and fun to learn, through training modules and hands-on experiences.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="padding: 25px;">
+                    <div class="card h-100">
+                        <div class="card-body card-content">
+                          <h1>Outreach</h1>
+                          <p>Building a platform to share expertise in machine learning.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="padding: 25px;">
+                    <div class="card h-100">
+                        <div class="card-body card-content">
+                          <h1>Competition</h1>
+                          <p>Hosting and participating in ML related competitions and hackathons.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{ end }}
