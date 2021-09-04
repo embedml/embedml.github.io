@@ -20,8 +20,14 @@ Run server on your machine
 hugo server -D
 ```
 
-Build static files for deployment
+Build static files
 
 ```bash
 hugo -D
 ```
+
+## Deployment
+
+Github pages is used to host the website. Any push to 'main' branch will trigger the workflow in order to deploy via Github Pages. You can run this workflow [manually](https://github.com/embedml/embedml.github.io/actions/workflows/gh-pages.yml) if needed.
+
+The final minified files and other assets used for the website are in the 'gh-pages' branch. As such, the gh-pages branch must be selected as the source for Github Pages found in the settings of this repository.
