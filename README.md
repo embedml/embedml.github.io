@@ -1,6 +1,6 @@
 # embedml website
 
-![example workflow](https://github.com/embedml/embedml.github.io/actions/workflows/gh-pages.yml/badge.svg)
+[![workflow](https://github.com/embedml/embedml.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/embedml/embedml.github.io/actions/workflows/gh-pages.yml)
 
 Website to showcase our projects and resources
 
