@@ -1,5 +1,7 @@
 # embedml website
 
+![example workflow](https://github.com/embedml/embedml.github.io/actions/workflows/gh-pages.yml/badge.svg)
+
 Website to showcase our projects and resources
 
 ## Contribute
