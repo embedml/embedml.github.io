@@ -1,3 +1,7 @@
+:root {
+    --alt-orange: rgb(250, 200, 0);
+}
+
 
 .container-accent-1 {
     background-color: rgb(129, 152, 237);
@@ -40,6 +44,24 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin-bottom: 0.3rem;
+}
+
+/* .container-accent-8 a, .container-accent-8 a:hover {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0.3rem;
+    color: inherit;
+    text-decoration: inherit;
+    display: block;
+} */
+
+.col-footer-links a, .col-footer-links a:hover {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0.3rem;
+    color: inherit;
+    text-decoration: inherit;
+    display: block;
 }
 
 .container-accent-8-highlight-text {
@@ -230,3 +252,81 @@ i {
     0% { border-color:black; }
     100% { border-color:rgb(250, 200, 0) }
 } */
+
+.container-section > h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.social-icon {
+    display: inline;
+}
+
+.social-icon a, .social-icon a:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.avatar-leadership img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.avatar-leadership {
+    display: flex;
+    justify-content: center;
+}
+
+.container-leadership h1{
+    padding-top: 12px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0;
+}
+
+.container-leadership p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+}
+
+.social-leadership {
+    display: flex;
+    justify-content: center;
+}
+
+.social-leadership .social-leadership-icon {
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 4px;
+}
+
+.social-leadership .social-icon {
+    font-size: 15px;
+    color: #999;
+}
+
+.social-leadership .social-icon:hover {
+    color: black;
+}
+
+.example i {
+    margin: 0;
+}
+
+.example {
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    block-size: fit-content;
+}
+.example a {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+}
