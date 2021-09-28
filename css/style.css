@@ -36,6 +36,14 @@
     background-color: rgb(15, 25, 40);
 }
 
+.container-accent-9 {
+    background-color: rgb(81, 182, 220);
+}
+
+.container-accent-10 {
+    background-color: rgb(147, 37, 181);
+}
+
 .container-accent-8-white-text {
     color: white;
 }
