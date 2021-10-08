@@ -44,6 +44,10 @@
     background-color: rgb(147, 37, 181);
 }
 
+.container-accent-11 {
+    background-color: rgb(124, 250, 201);
+}
+
 .container-accent-8-white-text {
     color: white;
 }
@@ -130,6 +134,13 @@ html, body {
     font-size: small;
 }
 
+.footer-copyright-text a, .footer-copyright-text a:hover {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 300;
+    color: inherit;
+    text-decoration: inherit;
+    display: block;
+}
 
 .col-text-align-center {
     text-align: center;
